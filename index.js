@@ -41,17 +41,17 @@ boxCard.addEventListener('click', function(){
         boxMenu++;
     return;
     case 1:
-      document.getElementById("img").src = "../assets/img/foto-2.jfif";
+      document.getElementById("img").src = "./assets/img/foto-2.jfif";
       document.getElementById("text-container").innerHTML = "Gracias por todos los momentos que pasamos juntos, por cada risa, por cada abrazo, por cada lagrima y cada consuelo";
       boxMenu++;
       return;
     case 2:
-      document.getElementById("img").src = "../assets/img/foto-3.jfif";
+      document.getElementById("img").src = "./assets/img/foto-3.jfif";
       document.getElementById("text-container").innerHTML = "Y aunque pase el tiempo no puedo dejar de pensar en vos, en tu sonrisa y en la alegria que me transmitis. Este deseo de seguir";
       boxMenu++;
     return;
     case 3:
-      document.getElementById("img").src = "../assets/img/foto-4.jpg";
+      document.getElementById("img").src = "./assets/img/foto-4.jpg";
       document.getElementById("text-container").innerHTML = "Para finalizar esta carta, quiero decirte que estoy agradecido por todo lo que me das, y aunque la palabra siguiente no defina por completo lo que siento al verte, Te amo...";
       boxMenu++;
       return;
